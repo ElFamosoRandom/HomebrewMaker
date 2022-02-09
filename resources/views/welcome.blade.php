@@ -97,10 +97,10 @@
 
     </div>
 </div>
-<div class="container absolute mx-auto inset-x-0 bottom-0 lg:h-2/6">
-    <div class="flex flex-wrap -mx-1 h-full">
+<div class="container absolute mx-auto px-2 inset-x-0 bottom-0 w-full lg:h-2/6">
+    <div class="flex overflow-x-auto -mx-1 h-full">
         <!-- Column -->
-        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+        <div class="my-1 px-1 w-full flex-shrink-0 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
 
             <!-- Article -->
             <article class="overflow-hidden rounded-lg shadow-lg bg-neutral-50 h-full">
@@ -111,17 +111,29 @@
         </div>
         <!-- END Column -->
 		
-		<div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+		<div class="my-1 px-1 w-full flex-shrink-0 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
 			<article class="overflow-hidden rounded-lg shadow-lg bg-neutral-50 h-full">
 				
 			</article>
 		</div>
-		<div class="my-1 px-1 w-full lg:w-1/4 lg:px-4 lg:my-4">
+		<div class="my-1 px-1 w-full flex-shrink-0 lg:w-1/4 lg:px-4 lg:my-4">
 			<article class="w-full h-full bg-neutral-50 rounded-lg">
 				
 			</article>
 		</div>
-		<div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4 lg:h-50">
+		<div class="my-1 px-1 w-full flex-shrink-0 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4 lg:h-50">
+			<article class="w-full h-full bg-neutral-50 rounded-lg">
+
+			</article>
+		</div>
+
+        <div class="my-1 px-1 w-full flex-shrink-0 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4 lg:h-50">
+			<article class="w-full h-full bg-neutral-50 rounded-lg">
+
+			</article>
+		</div>
+
+        <div class="my-1 px-1 w-full flex-shrink-0 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4 lg:h-50">
 			<article class="w-full h-full bg-neutral-50 rounded-lg">
 
 			</article>
