@@ -87,19 +87,20 @@
                 <div class="absolute top-16 left-12 z-10 w-4/6 h-px bg-zinc-50"></div>
                 <div class="absolute top-60 left-80 z-10 w-96 h-1 bg-zinc-50"></div>
                 <div class="absolute top-60 left-80 z-10 mr-32">
-                    <div class="m-4">
-                        <p class="text-6xl text-zinc-50">The ultimate</p>
+                    <div class="m-8">
+                        <p class="text-6xl text-zinc-50">Homebrew</p>
                     </div>
-                    <div class="m-4">
-                        <p class="text-6xl text-zinc-50">homebrew experience</p>
+                    <div class="m-8">
+                        <p class="text-6xl text-zinc-50">Maker</p>
                     </div>
-                    <div class="m-4">
+                    <div class="mt-8 mb-8 ml-8 mr-32">
                         <p class="text-xl text-zinc-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada vel augue sit amet laoreet. Sed pellentesque orci vitae nibh placerat tristique. Donec sagittis magna a odio euismod rutrum.</p>
                     </div>
-                    <div class="m-4">
+                    <div class="m-8">
                         <button class="bg-yellow-500 w-64 h-16 hover:bg-yellow-600 text-gray-50 font-semibold text-2xl py-2 px-4 border rounded shadow">Learn More</button>
                     </div>
                 </div>
+                <div class="absolute bottom-10 right-12 z-10 w-4/6 h-px bg-zinc-50"></div>
                 
                 <div class="absolute top-0 bottom-0 h-full w-full bg-zinc-800 opacity-50 z-1">
             </div>

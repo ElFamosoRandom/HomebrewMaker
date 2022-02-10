@@ -497,44 +497,29 @@ Ensure the default browser behavior of the `hidden` attribute.
 .top-80 {
   top: 20rem;
 }
-.top-52 {
-  top: 13rem;
-}
-.top-96 {
-  top: 24rem;
-}
-.top-60 {
-  top: 15rem;
-}
-.bottom-96 {
-  bottom: 24rem;
-}
-.bottom-60 {
-  bottom: 15rem;
-}
-.bottom-80 {
-  bottom: 20rem;
-}
-.left-80 {
-  left: 20rem;
-}
-.top-4 {
-  top: 1rem;
-}
-.left-4 {
-  left: 1rem;
-}
-.top-12 {
-  top: 3rem;
-}
-.top-20 {
-  top: 5rem;
-}
 .top-16 {
   top: 4rem;
 }
 .left-12 {
   left: 3rem;
+}
+.top-60 {
+  top: 15rem;
+}
+.left-80 {
+  left: 20rem;
+}
+.bottom-16 {
+  bottom: 4rem;
+}
+.right-12 {
+  right: 3rem;
+}
+.bottom-12 {
+  bottom: 3rem;
+}
+.bottom-10 {
+  bottom: 2.5rem;
 }
 .z-20 {
   z-index: 20;
@@ -542,14 +527,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .z-10 {
   z-index: 10;
 }
-.m-32 {
-  margin: 8rem;
-}
-.m-2 {
-  margin: 0.5rem;
-}
 .m-4 {
   margin: 1rem;
+}
+.m-8 {
+  margin: 2rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -578,26 +560,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mr-3 {
   margin-right: 0.75rem;
 }
-.mt-10 {
-  margin-top: 2.5rem;
-}
-.mt-20 {
-  margin-top: 5rem;
-}
-.ml-10 {
-  margin-left: 2.5rem;
-}
-.mr-10 {
-  margin-right: 2.5rem;
+.mr-32 {
+  margin-right: 8rem;
 }
 .mr-20 {
   margin-right: 5rem;
 }
-.mr-32 {
-  margin-right: 8rem;
+.mb-8 {
+  margin-bottom: 2rem;
 }
-.mr-36 {
-  margin-right: 9rem;
+.ml-8 {
+  margin-left: 2rem;
+}
+.mr-40 {
+  margin-right: 10rem;
 }
 .block {
   display: block;
@@ -635,26 +611,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-16 {
   height: 4rem;
 }
-.h-1 {
-  height: 0.25rem;
+.h-32 {
+  height: 8rem;
 }
 .h-px {
   height: 1px;
 }
-.h-40 {
-  height: 10rem;
-}
-.h-24 {
-  height: 6rem;
-}
-.h-32 {
-  height: 8rem;
-}
-.h-1\/2 {
-  height: 50%;
-}
-.h-3\/4 {
-  height: 75%;
+.h-1 {
+  height: 0.25rem;
 }
 .w-screen {
   width: 100vw;
@@ -677,20 +641,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-64 {
   width: 16rem;
 }
-.w-96 {
-  width: 24rem;
-}
-.w-4\/5 {
-  width: 80%;
-}
-.w-5\/6 {
-  width: 83.333333%;
-}
 .w-4\/6 {
   width: 66.666667%;
 }
-.w-3\/4 {
-  width: 75%;
+.w-96 {
+  width: 24rem;
 }
 .flex-shrink-0 {
   flex-shrink: 0;
