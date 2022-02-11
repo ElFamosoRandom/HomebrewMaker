@@ -7,7 +7,8 @@ module.exports = {
     "./public/images/*.jpg",
   ],
   theme: {
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
 }
