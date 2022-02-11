@@ -75,10 +75,10 @@
                 </div>
                 <div class="bottom-0 right-0 fixed h-32 w-1/4 flex flex-row z-20">
                     <div class="grow w-1/2">
-                        <svg class="h-14 w-14 mx-auto mt-3 text-yellow-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 8 8 12 12 16" />  <line x1="16" y1="12" x2="8" y2="12" /></svg>
+                        <svg class="h-16 w-16 mx-auto mt-3 text-yellow-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 8 8 12 12 16" />  <line x1="16" y1="12" x2="8" y2="12" /></svg>
                     </div>
                     <div class="grow w-1/2">
-                        <svg class="h-14 w-14 mx-auto mt-3 text-yellow-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 16 16 12 12 8" />  <line x1="8" y1="12" x2="16" y2="12" /></svg>
+                        <svg class="h-16 w-16 mx-auto mt-3 text-yellow-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 16 16 12 12 8" />  <line x1="8" y1="12" x2="16" y2="12" /></svg>
                     </div>
                 </div>
                 <img src="../images/BackgroundTest2.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-5/6 -left-36 -bottom-40 z-1">
@@ -100,6 +100,25 @@
                         <button class="bg-yellow-500 w-64 h-16 hover:bg-yellow-600 text-gray-50 font-semibold text-2xl py-2 px-4 border rounded shadow">Learn More</button>
                     </div>
                 </div>
+                <div class="absolute top-0 left-12 z-10 flex flex-row w-4/6 h-16">
+                    <div class="z-20 w-full h-full bg-yellow-500">
+                        <svg class="h-8 w-8 text-zinc-900 mx-auto mt-4" <svg  width="24"  height="24"  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M12 19l7-7 3 3-7 7-3-3z" />  <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />  <path d="M2 2l7.586 7.586" />  <circle cx="11" cy="11" r="2" /></svg>
+                    </div>
+                    <div class="z-20 w-full h-full">
+                        <svg class="h-8 w-8 text-white mx-auto mt-4"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" /></svg>
+                    </div>
+                    <div class="z-20 w-full h-full">
+                        <svg class="h-8 w-8 text-white mx-auto mt-4"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg>
+                    </div>
+                    <div class="z-20 w-full h-full">
+                        <svg class="h-8 w-8 text-white mx-auto mt-4"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />  <polyline points="14 2 14 8 20 8" />  <line x1="16" y1="13" x2="8" y2="13" />  <line x1="16" y1="17" x2="8" y2="17" />  <polyline points="10 9 9 9 8 9" /></svg>
+                    </div>
+                    <div class="z-20 w-full h-full">
+                        <svg class="h-8 w-8 text-white mx-auto mt-4"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />  <circle cx="12" cy="7" r="4" /></svg>
+                    </div>
+                </div>
+                
+                
                 <div class="absolute bottom-10 right-12 z-10 w-4/6 h-px bg-zinc-50"></div>
                 
                 <div class="absolute top-0 bottom-0 h-full w-full bg-zinc-800 opacity-50 z-1">
