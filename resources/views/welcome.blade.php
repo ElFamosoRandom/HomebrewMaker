@@ -42,29 +42,49 @@
     </style>
 </head>
 <body class="bg-zinc-900 h-screen w-screen">
-    <div style="" class="relative rounded relative overflow-hidden shadow-xl h-full">
-        <div class="carousel relative rounded relative overflow-hidden shadow-xl h-full">
+    <!--<div style="" class="relative rounded relative overflow-hidden shadow-xl h-full">
+        <div class="carousel relative rounded relative overflow-hidden shadow-xl h-full">-->
+            <img src="../images/BackgroundTest2.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-5/6 -left-20 -bottom-20 lg:-left-36 lg:-bottom-40">
+            <img src="../images/BackgroundTest3.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-4/6 -right-32 -top-10 lg:-right-40 lg:top-0">
+            <div class="absolute top-0 bottom-0 h-full w-full bg-zinc-800 opacity-50">
+            </div>
             <div class="carousel-inner relative overflow-hidden w-full h-full">
+                
                 <!-- <img src="../images/backgroundback2.jpg" style="background-size: contain; background-repeat: no-repeat;" class="h-full w-full"> -->
                 <!--Slide 1-->
-                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                <!-- <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
                 checked="checked">
-                <div class="bg-zinc-900 carousel-item absolute opacity-0 bg-center bg-cover h-full"">
+                <div class="bg-zinc-900 carousel-item absolute opacity-0 bg-center bg-cover h-full">
 
                 </div>
                 
 
-                <!--Slide 2-->
+                
                 <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-                <div class="bg-zinc-700 carousel-item absolute opacity-0 bg-center bg-cover h-full"">
+                <div class="bg-zinc-700 carousel-item absolute opacity-0 bg-center bg-cover h-full">
 
                 </div>
 
 
-                <!--Slide 3-->
+                
                 <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-                <div class="bg-zinc-500 carousel-item absolute opacity-0 bg-center bg-cover h-full"">
+                <div class="bg-zinc-500 carousel-item relative opacity-0 bg-center bg-cover h-full">
 
+                </div> -->
+                 <!--absolute h-4/6 flex flex-col top-24 lg:top-60 left-4 right-4 lg:left-80 z-10 lg:mr-32-->
+                 <div class="h-32 w-1/4 flex flex-col z-20 visible">
+                    <div class="lg:m-8">
+                        <p class="text-6xl text-zinc-50">Homebrew</p>
+                    </div>
+                    <!--<div class="lg:m-8">
+                        <p class="text-6xl text-zinc-50">Maker</p>
+                    </div>
+                    <div class="mt-8 mb-8 ml-0 lg:ml-8 mr-4 lg:mr-32">
+                        <p class="text-zinc-50 text-sm lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada vel augue sit amet laoreet. Sed pellentesque orci vitae nibh placerat tristique. Donec sagittis magna a odio euismod rutrum.</p>
+                    </div>-->
+                    <!--<div class="absolute lg:relative bottom-10 w-full left-0 md:w-1/2 md:left-1/2 lg:left-0 transform translate-x-0 lg:translate-x-0 md:-translate-x-1/2 lg:ml-8 lg:mt-20">
+                        <button class="bg-yellow-500 w-full lg:w-64 h-16 hover:bg-yellow-600 text-gray-50 font-semibold text-2xl py-2 px-4 border rounded shadow">Learn More</button>
+                    </div>-->
                 </div>
 
                 <!-- Add additional indicators for each slide-->
@@ -81,25 +101,14 @@
                         <svg class="h-16 w-16 mx-auto mt-3 text-yellow-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 16 16 12 12 8" />  <line x1="8" y1="12" x2="16" y2="12" /></svg>
                     </div>
                 </div>
+        
                 <img src="../images/BackgroundTest2.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-5/6 -left-20 -bottom-20 lg:-left-36 lg:-bottom-40 z-1">
                 <img src="../images/BackgroundTest3.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-4/6 -right-32 -top-10 lg:-right-40 lg:top-0 z-1">
 
+
                 <div class="absolute top-12 invisible lg:visible lg:top-16 left:0 lg:left-12 z-10 w-4/6 h-px bg-zinc-50"></div>
                 <div class="absolute top-24 lg:top-60 left-4 lg:left-80 z-10 w-32 lg:w-96 h-px invisible lg:visible lg:h-1 bg-zinc-50"></div>
-                <div class="absolute h-5/6 top-24 lg:top-60 left-4 right-4 lg:left-80 z-10 lg:mr-32">
-                    <div class="lg:m-8 mb-1">
-                        <p class="text-xl text-zinc-50">Homebrew</p>
-                    </div>
-                    <div class="lg:m-8">
-                        <p class="text-xl text-zinc-50">Maker</p>
-                    </div>
-                    <div class="mt-8 mb-8 ml-0 lg:ml-8 mr-4 lg:mr-32">
-                        <p class="text-zinc-50 text-sm lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada vel augue sit amet laoreet. Sed pellentesque orci vitae nibh placerat tristique. Donec sagittis magna a odio euismod rutrum.</p>
-                    </div>
-                    <div class="absolute lg:relative bottom-10 w-full left-0 md:w-1/2 md:left-1/2 lg:left-0 transform translate-x-0 lg:translate-x-0 md:-translate-x-1/2 lg:ml-8 lg:mt-20">
-                        <button class="bg-yellow-500 w-full lg:w-64 h-16 hover:bg-yellow-600 text-gray-50 font-semibold text-2xl py-2 px-4 border rounded shadow">Learn More</button>
-                    </div>
-                </div>
+                
                 <div class="visible lg:invisible absolute top-2 left-2 z-10 h-18">
                     <div class="z-20 w-full h-full">
                         <svg class="h-10 w-10 md:h-16 md:w-16 text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <line x1="3" y1="12" x2="21" y2="12" />  <line x1="3" y1="6" x2="21" y2="6" />  <line x1="3" y1="18" x2="21" y2="18" /></svg>
@@ -122,13 +131,13 @@
                         <svg class="h-8 w-8 text-white mx-auto mt-2 lg:mt-4"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />  <circle cx="12" cy="7" r="4" /></svg>
                     </div>
                 </div>
-                
-                
+            
+            
                 <div class="absolute bottom-2 lg:bottom-10 right-0 ml-10 lg:right-12 z-10 w-full lg:w-4/6 h-px bg-zinc-50"></div>
                 
-                <div class="absolute top-0 bottom-0 h-full w-full bg-zinc-800 opacity-50 z-1">
+                </div>
             </div>
-        </div>
-    </div>
+        <!--</div>
+    </div>-->
 </body>
 </html>
