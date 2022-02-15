@@ -42,13 +42,12 @@
     </style>
 </head>
 <body class="bg-zinc-900 h-screen w-screen">
-    <!--<div style="" class="relative rounded relative overflow-hidden shadow-xl h-full">
-        <div class="carousel relative rounded relative overflow-hidden shadow-xl h-full">-->
+    <div style="" class="relative overflow-hidden shadow-xl h-full">
+        <!--<div class="carousel relative rounded relative overflow-hidden shadow-xl h-full">-->
             <img src="../images/BackgroundTest2.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-5/6 -left-20 -bottom-20 lg:-left-36 lg:-bottom-40">
-            <img src="../images/BackgroundTest3.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-4/6 -right-32 -top-10 lg:-right-40 lg:top-0">
-            <div class="absolute top-0 bottom-0 h-full w-full bg-zinc-800 opacity-50">
-            </div>
-            <div class="carousel-inner relative overflow-hidden w-full h-full">
+            <img src="../images/BackgroundTest3.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-4/6 -right-20 -top-10 lg:-right-40 lg:top-0">
+            <div class="absolute h-screen w-screen bg-zinc-800 opacity-70"></div>
+            <div class="relative overflow-hidden w-screen h-screen">
                 
                 <!-- <img src="../images/backgroundback2.jpg" style="background-size: contain; background-repeat: no-repeat;" class="h-full w-full"> -->
                 <!--Slide 1-->
@@ -73,13 +72,13 @@
                 </div> -->
                  <!--absolute h-4/6 flex flex-col top-24 lg:top-60 left-4 right-4 lg:left-80 z-10 lg:mr-32-->
                  <div class="h-32 w-1/4 flex flex-col z-20 visible">
-                    <div class="lg:m-8">
-                        <p class="text-6xl text-zinc-50">Homebrew</p>
+                    <div class="relative top-24 lg:top-60 left-4 lg:left-80 z-10 w-full h-full">
+                        <p class="text-4xl lg:text-6xl text-zinc-50">Homebrew</p>
                     </div>
-                    <!--<div class="lg:m-8">
-                        <p class="text-6xl text-zinc-50">Maker</p>
+                    <div class="relative top-24 lg:top-60 left-4 lg:left-80 z-10 w-full h-full">
+                        <p class="text-4xl lg:text-6xl text-zinc-50">Maker</p>
                     </div>
-                    <div class="mt-8 mb-8 ml-0 lg:ml-8 mr-4 lg:mr-32">
+                    <!--<div class="mt-8 mb-8 ml-0 lg:ml-8 mr-4 lg:mr-32">
                         <p class="text-zinc-50 text-sm lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada vel augue sit amet laoreet. Sed pellentesque orci vitae nibh placerat tristique. Donec sagittis magna a odio euismod rutrum.</p>
                     </div>-->
                     <!--<div class="absolute lg:relative bottom-10 w-full left-0 md:w-1/2 md:left-1/2 lg:left-0 transform translate-x-0 lg:translate-x-0 md:-translate-x-1/2 lg:ml-8 lg:mt-20">
@@ -102,8 +101,7 @@
                     </div>
                 </div>
         
-                <img src="../images/BackgroundTest2.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-5/6 -left-20 -bottom-20 lg:-left-36 lg:-bottom-40 z-1">
-                <img src="../images/BackgroundTest3.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-4/6 -right-32 -top-10 lg:-right-40 lg:top-0 z-1">
+                
 
 
                 <div class="absolute top-12 invisible lg:visible lg:top-16 left:0 lg:left-12 z-10 w-4/6 h-px bg-zinc-50"></div>
@@ -137,7 +135,7 @@
                 
                 </div>
             </div>
-        <!--</div>
-    </div>-->
+        <!--</div>-->
+    </div>
 </body>
 </html>
