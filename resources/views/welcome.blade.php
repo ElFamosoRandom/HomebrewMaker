@@ -42,7 +42,7 @@
     </style>
 </head>
 <body class="bg-zinc-900 h-screen w-screen">
-    <div style="" class="relative overflow-hidden shadow-xl h-full">
+    <div style="" class="relative overflow-x-hidden shadow-xl h-full">
         <!--<div class="carousel relative rounded relative overflow-hidden shadow-xl h-full">-->
             <img src="../images/BackgroundTest2.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-5/6 -left-20 -bottom-20 lg:-left-36 lg:-bottom-40">
             <img src="../images/BackgroundTest3.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-4/6 -right-20 -top-10 lg:-right-40 lg:top-0">
@@ -71,7 +71,16 @@
 
                 </div> -->
                  <!--absolute h-4/6 flex flex-col top-24 lg:top-60 left-4 right-4 lg:left-80 z-10 lg:mr-32-->
-                 <div class="h-32 w-1/4 flex flex-col z-20 visible">
+                 <div class="grid grid-flow-col overflow-hidden grid-cols-2 lg:grid-cols-4 grid-rows-2 gap-2 h-full">
+                    <div class="box col-start-1 col-end-3 lg:col-start-1 lg:col-end-5 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">1</div>
+                    <div class="box col-start-1 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">2</div>
+                    <div class="box col-start-2 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">3</div>
+                    <div class="box row-start-3 lg:row-start-2 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">4</div>
+                    <div class="box row-start-3 lg:row-start-2 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">5</div>
+                </div>
+                
+               
+                <div class="h-32 w-1/4 flex flex-col z-20 visible">
                     <div class="relative top-24 lg:top-60 left-4 lg:left-80 z-10 w-full h-full">
                         <p class="text-4xl lg:text-6xl text-zinc-50">Homebrew</p>
                     </div>
@@ -104,7 +113,7 @@
                 
 
 
-                <div class="absolute top-12 invisible lg:visible lg:top-16 left:0 lg:left-12 z-10 w-4/6 h-px bg-zinc-50"></div>
+                <div class="fixed top-12 invisible lg:visible lg:top-16 left:0 lg:left-12 z-10 w-4/6 h-px bg-zinc-50"></div>
                 <div class="absolute top-24 lg:top-60 left-4 lg:left-80 z-10 w-32 lg:w-96 h-px invisible lg:visible lg:h-1 bg-zinc-50"></div>
                 
                 <div class="visible lg:invisible absolute top-2 left-2 z-10 h-18">
@@ -112,7 +121,7 @@
                         <svg class="h-10 w-10 md:h-16 md:w-16 text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <line x1="3" y1="12" x2="21" y2="12" />  <line x1="3" y1="6" x2="21" y2="6" />  <line x1="3" y1="18" x2="21" y2="18" /></svg>
                     </div>
                 </div>
-                <div class="invisible lg:visible absolute top-0 xs:left-0 lg:left-12 z-10 flex flex-row w-4/6 h-12 lg:h-16">
+                <div class="invisible lg:visible fixed top-0 xs:left-0 lg:left-12 z-10 flex flex-row w-4/6 h-12 lg:h-16">
                     <div class="z-20 w-full h-full bg-yellow-500">
                         <svg class="h-8 w-8 text-zinc-900 mx-auto mt-2 lg:mt-4" <svg  width="24"  height="24"  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M12 19l7-7 3 3-7 7-3-3z" />  <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />  <path d="M2 2l7.586 7.586" />  <circle cx="11" cy="11" r="2" /></svg>
                     </div>
@@ -131,7 +140,7 @@
                 </div>
             
             
-                <div class="absolute bottom-2 lg:bottom-10 right-0 ml-10 lg:right-12 z-10 w-full lg:w-4/6 h-px bg-zinc-50"></div>
+                <div class="fixed bottom-2 lg:bottom-10 right-0 ml-10 lg:right-12 z-10 w-full lg:w-4/6 h-px bg-zinc-50"></div>
                 
                 </div>
             </div>
