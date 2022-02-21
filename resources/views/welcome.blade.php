@@ -42,7 +42,7 @@
     </style>
 </head>
 <body class="bg-zinc-900 h-screen w-screen">
-    <div style="" class="relative overflow-x-hidden shadow-xl h-full">
+    <div style="" class="relative overflow-x-hidden shadow-xl h-1/2">
         <!--<div class="carousel relative rounded relative overflow-hidden shadow-xl h-full">-->
             <img src="../images/BackgroundTest2.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-5/6 -left-20 -bottom-20 lg:-left-36 lg:-bottom-40">
             <img src="../images/BackgroundTest3.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-4/6 -right-20 -top-10 lg:-right-40 lg:top-0">
@@ -71,13 +71,6 @@
 
                 </div> -->
                  <!--absolute h-4/6 flex flex-col top-24 lg:top-60 left-4 right-4 lg:left-80 z-10 lg:mr-32-->
-                 <div class="grid grid-flow-col overflow-hidden grid-cols-2 lg:grid-cols-4 grid-rows-2 gap-2 h-full">
-                    <div class="box col-start-1 col-end-3 lg:col-start-1 lg:col-end-5 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">1</div>
-                    <div class="box col-start-1 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">2</div>
-                    <div class="box col-start-2 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">3</div>
-                    <div class="box row-start-3 lg:row-start-2 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">4</div>
-                    <div class="box row-start-3 lg:row-start-2 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">5</div>
-                </div>
                 
                
                 <div class="h-32 w-1/4 flex flex-col z-20 visible">
@@ -145,6 +138,17 @@
                 </div>
             </div>
         <!--</div>-->
+    </div>
+    <div class="grid overflow-hidden grid-cols-5 grid-rows-3 gap-1 gap-y-2 grid-flow-row z-20 h-full">
+        <div class="box col-start-1 col-end-6 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">
+            <div class="m-auto w-1/2 h-full bg-red-500"></div>
+        </div>
+        <div class="box bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">3</div>
+        <div class="box bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">3</div>
+        <div class="box bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">4</div>
+        <div class="box bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">5</div>
+        <div class="box bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">6</div>
+        <div class="box col-start-1 col-end-6 bg-indigo-700 text-gray-100 min-w-full h-32 min-h-full rounded">7</div>
     </div>
 </body>
 </html>
