@@ -39,13 +39,23 @@
           color: #2b6cb0;
           /*Set to match the Tailwind colour you want the active one to be */
         }
+        .box {
+            @apply
+            bg-indigo-700
+            text-gray-100
+            min-w-full
+            h-32
+            min-h-full
+            rounded;
+        }
+
     </style>
 </head>
 <body class="bg-zinc-900 h-screen w-screen">
-    <div style="" class="relative overflow-hidden shadow-xl h-full">
+    <div style="" class="relative overflow-hidden shadow-xl mt-16 h-1/2">
         <!--<div class="carousel relative rounded relative overflow-hidden shadow-xl h-full">-->
-            <img src="../images/BackgroundTest2.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-5/6 -left-20 -bottom-20 lg:-left-36 lg:-bottom-40">
-            <img src="../images/BackgroundTest3.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-4/6 -right-32 -top-10 lg:-right-40 lg:top-0">
+            <img src="../images/BackgroundTest2.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-full -left-20 -bottom-20 lg:-left-36 lg:-bottom-40">
+            <img src="../images/BackgroundTest3.png" style="background-size: contain; background-repeat: no-repeat; transform: scaleX(-1);" class="absolute h-2/4 lg:h-full -right-32 -top-10 lg:-right-40 lg:top-0">
             <div class="absolute h-screen w-screen bg-zinc-800 opacity-70"></div>
             <div class="relative overflow-hidden w-full h-full">
                 
@@ -96,12 +106,12 @@
                 </div>
 
                 <!-- Add additional indicators for each slide-->
-                <div class="top-0 right-0 fixed w-14 h-full flex flex-col z-20">
+                <div class="invisible top-0 right-0 fixed w-14 h-full flex flex-col z-20">
                     <div class="rounded-full mx-auto mt-8 w-2 h-2 bg-yellow-500"></div>
                     <div class="rounded-full mx-auto mt-8 w-2 h-2 bg-yellow-500"></div>
                     <div class="rounded-full mx-auto mt-8 w-2 h-2 bg-yellow-500"></div>
                 </div>
-                <div class="bottom-0 right-0 fixed h-32 w-1/4 flex flex-row z-20 invisible lg:visible md:invisible sm:invisible xs:invisible">
+                <div class="bottom-0 right-0 fixed h-32 w-1/4 flex flex-row z-20 invisible lg:invisible md:invisible sm:invisible xs:invisible">
                     <div class="grow w-1/2">
                         <svg class="h-16 w-16 mx-auto mt-3 text-yellow-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 8 8 12 12 16" />  <line x1="16" y1="12" x2="8" y2="12" /></svg>
                     </div>
@@ -138,12 +148,13 @@
                         <svg class="h-8 w-8 text-white mx-auto mt-2 lg:mt-4"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />  <circle cx="12" cy="7" r="4" /></svg>
                     </div>
                 </div>
-            
-            
-                <div class="fixed bottom-2 lg:bottom-10 right-0 ml-10 lg:right-12 z-10 w-full lg:w-4/6 h-px bg-zinc-50"></div>
+
+                <div class="invisible fixed bottom-2 lg:bottom-10 right-0 ml-10 lg:right-12 z-10 w-full lg:w-4/6 h-px bg-zinc-50"></div>
                 
                 </div>
+                
             </div>
+            
         <!--</div>-->
     </div>
 </body>
