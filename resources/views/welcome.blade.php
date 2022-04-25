@@ -76,8 +76,19 @@
               </div>    
             </button>
           </div>
-          <div class="w-72 pt-4 pl-4">
+          <div class="flex w-72 pt-4 pl-4">
             <img style="" src="{{ asset('images/logo.png') }}" alt="tag">
+          </div>
+          <div class="flex p-12 w-full h-1/2 absolute top-36">
+            <div class="w-7/12 h-full shadow-2xl">
+              <div class="bg-zinc-900 opacity-50 w-full h-full z-10 rounded-md">
+                <p class="p-12 text-white text-3xl z-20 w-full">Donec sed facilisis ex, ac tincidunt metus. Mauris suscipit tellus eu facilisis bibendum. Morbi mattis nibh eget suscipit faucibus. Donec et urna fringilla, scelerisque leo id, tincidunt leo. Nulla feugiat sem ac maximus volutpat. Suspendisse sem magna, tincidunt eu urna faucibus, vestibulum elementum nibh. In efficitur consequat leo, vel imperdiet dui euismod quis. Ut et sollicitudin massa</p>
+              </div>
+            </div>
+            <div class="pr-12 pl-12 w-5/12 h-full shadow-2xl">
+              <div class="bg-slate-50 opacity-50 w-full h-full z-10 rounded-md">
+              </div>
+            </div>
           </div>
         </div>
     </div>
@@ -88,7 +99,7 @@
       </svg>
     </div>
     <div class="flex space-x-7 w-full pl-7">
-      <div class="relative -top-28 max-w-md h-72 py-4 px-8 bg-slate-200 shadow-lg rounded-lg z-30 item flex-auto">
+      <div class="relative -top-28 h-72 py-4 px-8 bg-slate-200 shadow-lg rounded-lg z-30 item grow">
           <div class="flex justify-center -mt-16">
             <img class="w-20 h-20" src="{{ asset('images/sword.png') }}">
           </div>
@@ -96,7 +107,7 @@
             <h2 class="text-gray-800 text-3xl font-semibold text-center">Design Tools</h2>
           </div>
       </div>
-      <div class="relative -top-28 max-w-md py-4 px-8 bg-slate-200 shadow-lg rounded-lg z-30 item flex-auto">
+      <div class="relative -top-28 py-4 px-8 bg-slate-200 shadow-lg rounded-lg z-30 item grow">
           <div class="flex justify-center -mt-16">
             <img class="w-20 h-20" src="{{ asset('images/gears.png') }}">
           </div>
@@ -105,7 +116,7 @@
           </div>
           
       </div>
-      <div class="relative -top-28 max-w-md py-4 px-8 bg-slate-200 shadow-lg rounded-lg z-30 item flex-auto">
+      <div class="relative -top-28 py-4 px-8 bg-slate-200 shadow-lg rounded-lg z-30 item grow">
           <div class="flex justify-center -mt-16">
             <img class="w-20 h-20" src="{{ asset('images/mage.png') }}">
           </div>
