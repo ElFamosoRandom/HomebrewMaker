@@ -5,49 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <style>
-        .carousel-open:checked+.carousel-item {
-          position: static;
-          opacity: 100;
-        }
-
-        .carousel-item {
-          -webkit-transition: opacity 0.6s ease-out;
-          transition: opacity 0.6s ease-out;
-        }
-
-        #carousel-1:checked~.control-1,
-        #carousel-2:checked~.control-2,
-        #carousel-3:checked~.control-3 {
-          display: block;
-        }
-
-        .carousel-indicators {
-          list-style: none;
-          margin: 10px;
-          padding: 0;
-          position: absolute;
-          left: 95%;
-          right: 0;
-          top:10%;
-          text-align: center;
-          z-index: 10;
-        }
-
-        #carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
-        #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
-        #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
-          color: #2b6cb0;
-          /*Set to match the Tailwind colour you want the active one to be */
-        }
-        .box {
-            @apply
-            bg-indigo-700
-            text-gray-100
-            min-w-full
-            h-32
-            min-h-full
-            rounded;
-        }
         .Iam p {
           height: 50px;
           float: left;
@@ -57,7 +14,7 @@
           float: left;
           overflow: hidden;
           position: relative;
-          height: 50px;
+          height: 36px;
         }
         .Iam .innerIam {
           display: inline-block;
@@ -84,6 +41,84 @@
         40% { top: -72px; }
         60% { top: -108px; }
         80% { top: -144px; }
+        }
+
+        .inner {
+          font-weight: bold;
+          height: 36px;
+          overflow: hidden;
+          position:relative;
+        }
+
+        .images-wrapper {
+          display: flex;
+          flex-direction: column;
+          
+          animation: slideToLeft 10s ease infinite 1s;
+        }
+        #ah{
+          z-index:-1;
+          animation: image-change 10s ease infinite 1s,hide-element 10s ease infinite 1s;
+          
+        }
+
+        @keyframes hide-element {
+          20%,
+          50% {
+              visibility:hidden
+          }
+          70%,
+          90% {
+            visibility:hidden
+          }
+          80%,
+          100% {
+            visibility:visible
+          }
+        }
+
+       
+
+        @keyframes image-change {
+          0%,
+          50% {
+              transform: translateY(0%);
+          }
+          50%,
+          70% {
+            transform: translateY(0%);
+          }
+          70%,
+          100% {
+            transform: translateY(500%);
+          }
+        }
+
+        @keyframes slideToLeft {
+          0%,
+          10% {
+            transform: translateY(0);
+          }
+          15%,
+          28% {
+            transform: translateY(-20%);
+          }
+          33%,
+          46% {
+            transform: translateY(-40%);
+          }
+          51%,
+          64% {
+            transform: translateY(-60%);
+          }
+          69%,
+          82% {
+            transform: translateY(-80%);
+          }
+          87%,
+          100% {
+            transform: translateY(-100%);
+          }
         }
 
 
@@ -117,22 +152,23 @@
           <div class="flex w-72 pt-4 pl-4">
             <img style="" src="{{ asset('images/logo.png') }}" alt="tag">
           </div>
-          <div class="flex p-12 w-full h-1/3 absolute top-36">
-            <div class="w-5/12 h-full shadow-2xl">
-              <div class="bg-zinc-900 opacity-50 w-full h-full z-10 rounded-md">
-                <p class="pr-12 pl-12 pt-12 text-white text-2xl z-20 w-full">How about a little help with your homebrew campaing ?</p>
-                <div class="Iam p-12 text-white text-2xl z-20 w-full">
+          <div class="flex p-12 w-full absolute top-30">
+            <div class="w-6/12 shadow-2xl">
+              <div class="bg-zinc-900 bg-opacity-60 w-full z-10 rounded-md">
+                <p class="pr-12 pl-12 pt-12 text-white text-2xl z-20 w-full">How about a little help with your homebrew campaign ?</p>
+                <div class="Iam pr-12 pl-12 pt-12 text-white text-2xl z-20 w-full">
                   <p>Hombrew maker can help you with </p>
-                  <b>
-                    <div class="innerIam">
-                      your character sheet<br /> 
-                      your battle <br />
-                      your spells <br />
-                      your world <br />
-                      your creativity 
-                      </div>
-                  </b>
+                  <div class="inner">
+                    <div class="images-wrapper">
+                      <p id="ah"> your character sheet</p>
+                      <p> your battle</p>
+                      <p> your spells</p>
+                      <p> your world</p>
+                      <p> your creativity</p>
+                    </div>
+                  </div>
                 </div>
+                <p class="p-12 text-white text-2xl z-20 w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a fermentum quam. Sed blandit aliquam egestas. Nullam et arcu et nulla suscipit varius. Vivamus suscipit, dui porttitor sagittis sagittis, turpis ante feugiat sapien, eu fringilla orci nisi sed nulla. Ut iaculis molestie sapien, in scelerisque quam molestie a.</p>
               </div>
             </div>
           </div>
